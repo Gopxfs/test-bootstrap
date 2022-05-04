@@ -5,6 +5,7 @@
 - Bootstrap
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 Currently there is no live demo.
