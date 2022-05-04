@@ -1,8 +1,5 @@
-$main-background: #191765;
-
 body {
-  background-color: $main-background !important;
-
+  background-color: #191765 !important;
 }
 
 .main-text-color {
@@ -13,7 +10,7 @@ body {
   text-decoration: none;
 }
 
-.secondary-text-color, 
+.secondary-text-color,
 .nav li a,
 ul li {
   color: #fff;
@@ -22,3 +19,4 @@ ul li {
 ul {
   list-style-type: none;
 }
+/*# sourceMappingURL=input.css.map */
