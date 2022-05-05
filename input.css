@@ -2,6 +2,16 @@ body {
   background-color: #191765 !important;
 }
 
+.card-body {
+  background-color: #191765;
+}
+
+.card-title,
+.card-body,
+.card-text {
+  color: #fff;
+}
+
 .main-text-color {
   color: #9390ff;
 }
@@ -18,5 +28,81 @@ ul li {
 
 ul {
   list-style-type: none;
+}
+
+.skills-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skills {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skills li {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 3px;
+}
+
+.work-arrow-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 22px;
+  gap: 5px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.work-arrow-down * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  height: 22px;
+}
+
+.flex-arrow * {
+  color: #b3bac5;
+}
+
+.arrow-down,
+.link-icon {
+  height: 100%;
+}
+
+.project-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.card {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 75%;
 }
 /*# sourceMappingURL=input.css.map */
