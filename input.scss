@@ -123,6 +123,56 @@ margin-top: 15px;
   gap: 50px;
 }
 
-#my-recent-work {
-  margin-left: 755px;
+#recent-work-flex {
+  display: flex;
+  width: 75%;
+  margin-left: 20%;
+}
+
+#form-flex-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 175px;
+}
+
+#form-flex {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+#form-email,
+#form-name {
+  padding: 15px;
+}
+
+#form-message {
+  min-width: 500px;
+  min-height: 150px;
+  padding: 15px;
+  width: 100%;
+}
+
+#submit-button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #edecff;
+  justify-self: center;
+  margin-left :40%;
+}
+
+#form-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
 }
