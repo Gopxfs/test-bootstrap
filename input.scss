@@ -2,7 +2,6 @@ $main-background: #191765;
 
 body {
   background-color: $main-background !important;
-
 }
 
 .card-body {
@@ -10,7 +9,6 @@ body {
 }
 
 .card-title,
-.card-body,
 .card-text {
   color: #fff;
 }
@@ -85,3 +83,46 @@ margin-top: 15px;
   width: 75%;
 }
 
+.project-button {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  height: 48px;
+  width: 106px;
+  background-color: #7d73fc;
+  border: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 0;
+  transition: box-shadow 0.2s ease-out, color 2s ease-out;
+}
+
+.project-button:hover {
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.project-button:active {
+  background: #5e42d7;
+}
+
+.project-button:disabled {
+  background: #2a2b33;
+  box-shadow: none;
+}
+
+#project-cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  gap: 50px;
+}
+
+#my-recent-work {
+  margin-left: 755px;
+}
